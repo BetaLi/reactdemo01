@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React,{ Component } from 'react';
 import Remarkable from 'remarkable';
 
 class MarkdownEdit extends Component{
@@ -24,7 +24,7 @@ class MarkdownEdit extends Component{
                 <h1>Output</h1>
                 <div
                     className="content"
-                    dangerouslySetInnerHTML={this.getRawMarkup}
+                    dangerouslySetInnerHTML={this.getRawMarkup()}
                 />
             </div>
         )
